@@ -12,6 +12,7 @@
 
 Решение:
 1) SELECT *
+
 FROM employees
 WHERE salary = (SELECT MAX(salary) FROM employees);
 
