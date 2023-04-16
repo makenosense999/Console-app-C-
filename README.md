@@ -1,4 +1,36 @@
 <h1 align="center">Console app C#</h1>
+Первое задание:
+
+Дана БД, имеющая  две таблицы: сотрудники и подразделение.
+Необходимо написать 4 запроса.
+
+Напишите запросы, которые выведут:
+1) Сотрудника с максимальной заработной платой.
+2) Вывести одно число: максимальную длину цепочки руководителей по таблице сотрудников (вычислить глубину дерева).
+3) Отдел, с максимальной суммарной зарплатой сотрудников. 
+4) Сотрудника, чье имя начинается на «Р» и заканчивается на «н».
+
+Решение:
+1) SELECT *
+FROM employees
+WHERE salary = (SELECT MAX(salary) FROM employees);
+
+2) SELECT MAX(level) AS max_depth
+FROM employees
+START WITH chief_id IS NULL
+CONNECT BY PRIOR id = chief_id;
+
+3) SELECT d.name, SUM(e.salary) AS total_salary
+FROM employees e, department d
+WHERE e.department_id = d.id
+GROUP BY d.name
+ORDER BY total_salary DESC
+FETCH FIRST 1 ROW ONLY;
+
+4) SELECT *
+FROM employees
+WHERE name LIKE 'R%N';
+
 Второе задание:
 
 Напишите консольное приложение на C#, которое на вход принимает большой текстовый файл (например «Война и мир», можно взять отсюда http://az.lib.ru/). На выходе создает текстовый файл с перечислением всех уникальных слов встречающихся в тесте и количеством их употреблений, отсортированный в порядке убывания количества употреблений, например:
