@@ -11,11 +11,13 @@
 4) Сотрудника, чье имя начинается на «Р» и заканчивается на «н».
 
 Решение:
+
 1) SELECT *
 
 FROM employees
 
 WHERE salary = (SELECT MAX(salary) FROM employees);
+
 
 2) SELECT MAX(level) AS max_depth
 
@@ -24,6 +26,7 @@ FROM employees
 START WITH chief_id IS NULL
 
 CONNECT BY PRIOR id = chief_id;
+
 
 3) SELECT d.name, SUM(e.salary) AS total_salary
 
@@ -37,11 +40,13 @@ ORDER BY total_salary DESC
 
 FETCH FIRST 1 ROW ONLY;
 
+
 4) SELECT *
 
 FROM employees
 
 WHERE name LIKE 'R%N';
+
 
 Второе задание:
 
