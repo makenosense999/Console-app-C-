@@ -1,0 +1,15 @@
+C:\Users\Arthur\Desktop\Testing\First\First\First\bin\Debug\net7.0\First.exe
+C:\Users\Arthur\Desktop\Testing\First\First\First\bin\Debug\net7.0\First.deps.json
+C:\Users\Arthur\Desktop\Testing\First\First\First\bin\Debug\net7.0\First.runtimeconfig.json
+C:\Users\Arthur\Desktop\Testing\First\First\First\bin\Debug\net7.0\First.dll
+C:\Users\Arthur\Desktop\Testing\First\First\First\bin\Debug\net7.0\First.pdb
+C:\Users\Arthur\Desktop\Testing\First\First\First\obj\Debug\net7.0\First.csproj.AssemblyReference.cache
+C:\Users\Arthur\Desktop\Testing\First\First\First\obj\Debug\net7.0\First.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arthur\Desktop\Testing\First\First\First\obj\Debug\net7.0\First.AssemblyInfoInputs.cache
+C:\Users\Arthur\Desktop\Testing\First\First\First\obj\Debug\net7.0\First.AssemblyInfo.cs
+C:\Users\Arthur\Desktop\Testing\First\First\First\obj\Debug\net7.0\First.csproj.CoreCompileInputs.cache
+C:\Users\Arthur\Desktop\Testing\First\First\First\obj\Debug\net7.0\First.dll
+C:\Users\Arthur\Desktop\Testing\First\First\First\obj\Debug\net7.0\refint\First.dll
+C:\Users\Arthur\Desktop\Testing\First\First\First\obj\Debug\net7.0\First.pdb
+C:\Users\Arthur\Desktop\Testing\First\First\First\obj\Debug\net7.0\First.genruntimeconfig.cache
+C:\Users\Arthur\Desktop\Testing\First\First\First\obj\Debug\net7.0\ref\First.dll
